@@ -2,11 +2,11 @@ package com.example.dummyproject.service.impl;
 
 import com.example.dummyproject.common.CommonClass;
 import com.example.dummyproject.common.CommonResponseEnum;
-import com.example.dummyproject.model.entity.UserComment;
+import com.example.dummyproject.model.entity.firstdb.UserComment;
 import com.example.dummyproject.model.request.AddCommentRequest;
 import com.example.dummyproject.model.response.BaseResponse;
 import com.example.dummyproject.model.response.CommentResponse;
-import com.example.dummyproject.repo.UserCommentRepo;
+import com.example.dummyproject.repo.firstdb.UserCommentRepo;
 import com.example.dummyproject.service.SNSService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

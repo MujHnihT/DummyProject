@@ -1,6 +1,6 @@
-package com.example.dummyproject.repo;
+package com.example.dummyproject.repo.firstdb;
 
-import com.example.dummyproject.model.entity.UserComment;
+import com.example.dummyproject.model.entity.firstdb.UserComment;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
