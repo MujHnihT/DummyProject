@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://118.70.22.161:5432/postgres
+    username: postgres
+    password: docker
+
+server:
+  port: 8080
