@@ -22,4 +22,9 @@ public class UtilityController {
     public ResponseEntity<BufferedImage> generateQRCode(HttpServletRequest httpServlet) throws Exception {
         return utilityService.generateQR(httpServlet);
     }
+
+    @GetMapping(value="/qrcode1")
+    public ResponseEntity<String> generateQRCode1(HttpServletRequest httpServlet) throws Exception {
+        return utilityService.test(httpServlet);
+    }
 }

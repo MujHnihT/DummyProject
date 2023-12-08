@@ -16,6 +16,11 @@ import java.awt.image.BufferedImage;
 public class UtilityServiceImpl implements UtilityService {
 
     @Override
+    public ResponseEntity<String> test(HttpServletRequest httpServlet) {
+        return ResponseEntity.status(200).body("hihi");
+    }
+
+    @Override
     public ResponseEntity<BufferedImage> generateQR(HttpServletRequest httpServlet) {
         try {
             String a = httpServlet.getParameter("barcode");

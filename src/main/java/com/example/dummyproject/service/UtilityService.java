@@ -9,4 +9,5 @@ import java.awt.image.BufferedImage;
 @Service
 public interface UtilityService {
     ResponseEntity<BufferedImage> generateQR(HttpServletRequest httpServlet);
+    ResponseEntity<String> test(HttpServletRequest httpServlet);
 }
